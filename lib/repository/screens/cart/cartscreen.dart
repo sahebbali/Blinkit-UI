@@ -8,8 +8,9 @@ class CartScreen extends StatelessWidget {
     return Scaffold(
         body: Column(
       children: [
-        SizedBox(height: 40,),
-
+        SizedBox(
+          height: 40,
+        ),
         Stack(
           children: [
             Container(
@@ -40,7 +41,7 @@ class CartScreen extends StatelessWidget {
                         width: 20,
                       ),
                       UiHelper.CustomText(
-                          text: "16 minutes",
+                          text: "1 minutes",
                           color: Color(0XFF000000),
                           fontweight: FontWeight.bold,
                           fontsize: 20,
@@ -142,7 +143,6 @@ class CartScreen extends StatelessWidget {
                   padding: EdgeInsets.only(top: 95, left: 65),
                   child: UiHelper.CustomButton(() {}),
                 ),
-
               ],
             ),
             SizedBox(
